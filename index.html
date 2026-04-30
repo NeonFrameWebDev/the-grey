@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1a1814">
+<title>The Grey | Port City Southern Food, Savannah, Georgia</title>
+<meta name="description" content="A 1938 Greyhound terminal, restored. Port City Southern food, refined. Chef Mashama Bailey and Johno Morisano. 109 Martin Luther King Jr Blvd, Savannah, GA.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="The Grey">
+<link rel="canonical" href="https://neonframewebdev.github.io/the-grey/">
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="The Grey | Port City Southern Food, Savannah">
+<meta property="og:description" content="A 1938 Greyhound terminal, restored. Port City Southern food, refined. The building's long tradition of transporting people to a destination.">
+<meta property="og:image" content="https://neonframewebdev.github.io/the-grey/assets/exterior_1.jpg">
+<meta property="og:image:alt" content="The Grey restaurant at night, the restored 1938 Greyhound terminal facade with curved porthole windows glowing amber">
+<meta property="og:url" content="https://neonframewebdev.github.io/the-grey/">
+<meta property="og:site_name" content="The Grey">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Grey | Port City Southern Food, Savannah">
+<meta name="twitter:description" content="A 1938 Greyhound terminal, restored. Port City Southern food, refined.">
+<meta name="twitter:image" content="https://neonframewebdev.github.io/the-grey/assets/exterior_1.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=DM+Sans:wght@300;400&display=swap" as="style">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=DM+Sans:wght@300;400&display=swap" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,600;1,300;1,600&family=DM+Sans:wght@300;400&display=swap"></noscript>
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Restaurant",
+  "@id": "https://neonframewebdev.github.io/the-grey/",
+  "name": "The Grey",
+  "image": "https://neonframewebdev.github.io/the-grey/assets/exterior_1.jpg",
+  "servesCuisine": ["Southern", "American", "Port City Southern"],
+  "priceRange": "$$$",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "109 Martin Luther King Jr Blvd",
+    "addressLocality": "Savannah",
+    "addressRegion": "GA",
+    "postalCode": "31401",
+    "addressCountry": "US"
+  },
+  "telephone": "+19126625999",
+  "url": "https://neonframewebdev.github.io/the-grey/",
+  "acceptsReservations": "https://resy.com/cities/savannah-ga/the-grey",
+  "openingHoursSpecification": [
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday","Saturday"], "opens": "17:00", "closes": "22:00"},
+    {"@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "11:00", "closes": "21:00"}
+  ],
+  "founder": [
+    {"@type": "Person", "name": "Mashama Bailey"},
+    {"@type": "Person", "name": "Johno Morisano"}
+  ],
+  "foundingDate": "2015",
+  "award": "James Beard Award Best Chef Southeast 2019",
+  "sameAs": [
+    "https://www.facebook.com/TheGreySavannah",
+    "https://www.instagram.com/thegreysavannah/"
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Loader -->
+<div class="loader" id="loader" aria-hidden="true">
+  <div class="loader__inner">
+    <img src="assets/logo.png" alt="The Grey" class="loader__logo">
+  </div>
+</div>
+
+<!-- Nav -->
+<nav class="nav" id="nav" aria-label="Primary navigation">
+  <div class="nav__inner">
+    <a href="#hero" class="nav__brand" aria-label="The Grey home">
+      <img src="assets/logo.png" alt="The Grey" class="nav__logo">
+    </a>
+    <ul class="nav__links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#menus">Menus</a></li>
+      <li><a href="#private-events">Private Events</a></li>
+      <li><a href="#the-building">The Building</a></li>
+    </ul>
+    <a href="https://resy.com/cities/savannah-ga/the-grey" class="btn btn--reserve" target="_blank" rel="noopener">Reserve</a>
+    <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+      <span class="nav__burger__bar" aria-hidden="true"></span>
+      <span class="nav__burger__bar" aria-hidden="true"></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu" inert aria-label="Site menu">
+  <button class="mobile-menu__close" id="mobileMenuClose" aria-label="Close menu">Close</button>
+  <ul class="mobile-menu__links" role="list">
+    <li><a href="#about">About</a></li>
+    <li><a href="#menus">Menus</a></li>
+    <li><a href="#private-events">Private Events</a></li>
+    <li><a href="#the-building">The Building</a></li>
+    <li><a href="https://resy.com/cities/savannah-ga/the-grey" target="_blank" rel="noopener">Reserve a Table</a></li>
+  </ul>
+  <div class="mobile-menu__meta">
+    <p>109 Martin Luther King Jr Blvd<br>Savannah, GA 31401</p>
+    <p><a href="tel:+19126625999">(912) 662-5999</a></p>
+  </div>
+</div>
+
+<main id="main">
+
+<!-- Hero -->
+<header class="hero" id="hero">
+  <div class="hero__bg" aria-hidden="true">
+    <img
+      src="assets/exterior_1.jpg"
+      alt=""
+      width="1800"
+      height="1200"
+      fetchpriority="high"
+      decoding="async"
+      class="hero__img">
+  </div>
+  <div class="hero__scrim" aria-hidden="true"></div>
+  <div class="hero__inner">
+    <p class="hero__address">109 Martin Luther King Jr Blvd &nbsp;&middot;&nbsp; Savannah</p>
+    <h1 class="hero__title">The Grey</h1>
+    <p class="hero__sub">A 1938 Greyhound terminal, restored. Port City Southern food, refined.</p>
+    <div class="hero__actions">
+      <a href="https://resy.com/cities/savannah-ga/the-grey" class="btn btn--brass" target="_blank" rel="noopener">Reserve a Table</a>
+      <a href="#menus" class="btn btn--ghost">View the Menu</a>
+    </div>
+  </div>
+</header>
+
+<!-- The Building (MUST precede The People per spec) -->
+<section class="building" id="the-building" aria-labelledby="building-heading">
+  <div class="building__bg" aria-hidden="true"></div>
+  <div class="building__scrim" aria-hidden="true"></div>
+  <div class="building__inner">
+    <div class="building__text">
+      <p class="section-label reveal">The Building</p>
+      <h2 class="building__headline reveal" id="building-heading">109 Martin Luther King Jr Blvd</h2>
+      <div class="building__rule reveal" aria-hidden="true"></div>
+      <div class="building__body reveal">
+        <p>Before it was a restaurant, it was a Greyhound Bus Terminal. Built in 1938, it was a place where people arrived and departed, where the rituals of travel made strangers share the same benches and the same waiting. It was also, for much of its history, a building that sorted those people by race.</p>
+        <p>Mashama and Johno restored the terminal to its original luster, preserving the original gate signage, the oval porthole windows, the porcelain enamel facade, and the chrome details that define the building's Art Deco character. None of that history was hidden. The space continues the building's long tradition of transporting people to a destination, welcoming strangers as friends.</p>
+      </div>
+    </div>
+    <div class="building__book reveal">
+      <img
+        src="assets/press_book_cover.jpg"
+        alt="Black, White, and The Grey: The Story of an Unexpected Friendship and a Landmark Restaurant"
+        width="400"
+        height="520"
+        loading="lazy"
+        decoding="async">
+    </div>
+  </div>
+</section>
+
+<!-- About / The People -->
+<section class="about" id="about" aria-labelledby="about-heading">
+  <div class="about__inner">
+    <div class="about__photo">
+      <img
+        src="assets/staff_1.jpg"
+        alt="Mashama Bailey and Johno Morisano in front of The Grey, Savannah"
+        width="800"
+        height="1000"
+        loading="lazy"
+        decoding="async">
+    </div>
+    <div class="about__text">
+      <p class="section-label reveal">The People</p>
+      <h2 class="about__headline reveal" id="about-heading">Mashama Bailey and Johno Morisano</h2>
+      <div class="about__rule reveal" aria-hidden="true"></div>
+      <div class="about__body reveal">
+        <p>Mashama Bailey is a New York City girl, born in the Bronx and raised in Queens, with roots that run deep into Georgia. Johno Morisano is the product of a tight-knit Italian family, born and raised in New York City. In 2015 they opened The Grey together in a 1938 Art Deco Greyhound Bus Terminal, which they painstakingly restored to its original luster, in the heart of Savannah's historic district.</p>
+        <p>Their story and their partnership became the subject of the 2021 Clarkson Potter book, "Black, White, and The Grey: The Story of an Unexpected Friendship and a Landmark Restaurant." The food, wine and service experience they built here is simultaneously familiar and elevated. Mashama's cuisine is Port City Southern, drawing on local seafood, regional produce, and the deep, layered, and soulful flavors of this coast. The Grey earned Eater's Restaurant of the Year in 2017 and 2018. Mashama was named Best Chef Southeast by the James Beard Foundation in 2019.</p>
+      </div>
+      <div class="about__awards reveal" aria-label="Awards and recognition">
+        <div class="about__awards__rule" aria-hidden="true"></div>
+        <ul class="awards-list" role="list">
+          <li>James Beard Award, Best Chef Southeast &nbsp;&middot;&nbsp; 2019</li>
+          <li>Eater Restaurant of the Year &nbsp;&middot;&nbsp; 2017 and 2018</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Menus -->
+<section class="menus" id="menus" aria-labelledby="menus-heading">
+  <div class="menus__inner wrap">
+    <p class="section-label section-label--light reveal">Menus</p>
+    <h2 class="menus__heading reveal" id="menus-heading">The Table</h2>
+    <div class="menus__cards">
+
+      <article class="menu-card reveal">
+        <h3 class="menu-card__title">Dinner</h3>
+        <p class="menu-card__hours">Tuesday through Saturday, 5:00 to 10:00pm</p>
+        <p class="menu-card__desc">Mashama brings her personal take on Port City Southern food to every plate, utilizing regional produce, seafood and meats from the coastal Georgia larder. The menu changes with what arrives, from dayboat catch and fried oysters to red snapper crudo and succotash. Three courses. Dinner service, Tuesday through Saturday.</p>
+        <a href="#" class="menu-card__link">View Menu</a>
+      </article>
+
+      <article class="menu-card reveal">
+        <div class="menu-card__mark" aria-hidden="true">
+          <img src="assets/logo_alt_brunch.png" alt="" width="40" height="40" loading="lazy">
+        </div>
+        <h3 class="menu-card__title">Sunday</h3>
+        <p class="menu-card__hours">Brunch 11:00am to 3:00pm &nbsp;&middot;&nbsp; Dinner 5:00 to 9:00pm</p>
+        <p class="menu-card__desc">Sunday in two acts. Brunch through the afternoon, then dinner through the evening. The building holds all of it.</p>
+        <p class="menu-card__placeholder">[Brunch menu details coming. Copy needed from owners before this section publishes.]</p>
+        <a href="#" class="menu-card__link">View Menu</a>
+      </article>
+
+      <article class="menu-card reveal">
+        <div class="menu-card__mark" aria-hidden="true">
+          <img src="assets/logo_alt_bus.png" alt="" width="40" height="40" loading="lazy">
+        </div>
+        <h3 class="menu-card__title">Diner Bar</h3>
+        <p class="menu-card__desc">A separate, more casual identity within the same building. Counter seating, a shorter menu, lower price point. The Reuben is on the board.</p>
+        <p class="menu-card__placeholder">[Diner Bar hours and full menu needed from owners before this section publishes.]</p>
+        <a href="#" class="menu-card__link">View Menu</a>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- Gallery -->
+<section class="gallery" id="gallery" aria-label="Restaurant photography">
+  <div class="gallery__grid" id="galleryGrid">
+    <figure class="gallery__item" data-src="assets/exterior_1.jpg" data-alt="The Grey at night, the restored 1938 Greyhound terminal">
+      <img src="assets/exterior_1.jpg" alt="The Grey at night, the restored 1938 Greyhound terminal" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/interior_1.jpg" data-alt="Geometric Art Deco wall panels and leather banquette seating at The Grey">
+      <img src="assets/interior_1.jpg" alt="Geometric Art Deco wall panels and leather banquette seating at The Grey" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/interior_2.jpg" data-alt="Main dining room with original Gate 2 and Gate 3 Greyhound terminal signage">
+      <img src="assets/interior_2.jpg" alt="Main dining room with original Gate 2 and Gate 3 Greyhound terminal signage" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/interior_3.jpg" data-alt="Private dining room with original oval porthole windows">
+      <img src="assets/interior_3.jpg" alt="Private dining room with original oval porthole windows" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/interior_4.jpg" data-alt="Private events setup at The Grey">
+      <img src="assets/interior_4.jpg" alt="Private events setup at The Grey" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/dish_1.jpg" data-alt="Oysters on the half shell at The Grey">
+      <img src="assets/dish_1.jpg" alt="Oysters on the half shell at The Grey" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/dish_2.jpg" data-alt="Coastal seafood pasta at The Grey">
+      <img src="assets/dish_2.jpg" alt="Coastal seafood pasta at The Grey" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/dish_3.jpg" data-alt="Salad with shaved hard cheese at The Grey">
+      <img src="assets/dish_3.jpg" alt="Salad with shaved hard cheese at The Grey" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/staff_1.jpg" data-alt="Mashama Bailey and Johno Morisano in front of The Grey">
+      <img src="assets/staff_1.jpg" alt="Mashama Bailey and Johno Morisano in front of The Grey" loading="lazy" decoding="async">
+    </figure>
+    <figure class="gallery__item" data-src="assets/staff_2.jpg" data-alt="Johno Morisano at The Grey with the Art Deco greyhound statuette">
+      <img src="assets/staff_2.jpg" alt="Johno Morisano at The Grey with the Art Deco greyhound statuette" loading="lazy" decoding="async">
+    </figure>
+  </div>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Photo" hidden>
+    <button class="lightbox__close" id="lightboxClose" aria-label="Close photo">Close</button>
+    <div class="lightbox__img-wrap">
+      <img class="lightbox__img" id="lightboxImg" src="" alt="" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<!-- Private Events -->
+<section class="events" id="private-events" aria-labelledby="events-heading">
+  <div class="events__inner">
+    <div class="events__photo">
+      <img
+        src="assets/interior_3.jpg"
+        alt="The private dining room at The Grey with original oval porthole windows and communal table"
+        width="800"
+        height="1000"
+        loading="lazy"
+        decoding="async">
+    </div>
+    <div class="events__text">
+      <p class="section-label reveal">Private Events</p>
+      <h2 class="events__headline reveal" id="events-heading">The Private Dining Room</h2>
+      <div class="events__rule reveal" aria-hidden="true"></div>
+      <div class="events__body reveal">
+        <p>The private dining room sits behind the oval porthole windows of the original terminal. Long communal table, candles, glassware, the warmth of an intimate space that still carries the building's architecture on its walls.</p>
+        <p>Cocktail parties, seated dinners, private events of all kinds.</p>
+      </div>
+      <div class="events__cta reveal">
+        <a href="mailto:thegrey.privateevents@greyspaces.com" class="btn btn--brass">Inquire</a>
+        <p class="events__contact">thegrey.privateevents@greyspaces.com</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Reserve / Contact -->
+<section class="reserve" id="reserve" aria-labelledby="reserve-heading">
+  <div class="reserve__inner wrap">
+    <div class="reserve__left">
+      <p class="section-label section-label--light reveal">Reservations</p>
+      <h2 class="reserve__heading reveal" id="reserve-heading">Join Us</h2>
+      <div class="reserve__rule reveal" aria-hidden="true"></div>
+      <div class="reserve__cta reveal">
+        <a href="https://resy.com/cities/savannah-ga/the-grey" class="btn btn--brass btn--lg" target="_blank" rel="noopener">Reserve a Table</a>
+        <p class="reserve__resy-note">Reservations via Resy. Phone reservations: <a href="tel:+19126625999">(912) 662-5999</a></p>
+      </div>
+      <div class="reserve__dress reveal">
+        <p class="dress-note">Smart and dressy casual. No gym wear, no beachwear. Men: collared shirt, long pants or smart shorts, closed-toe shoes.</p>
+      </div>
+    </div>
+    <div class="reserve__right reveal">
+      <div class="hours-block">
+        <p class="hours-label">Hours</p>
+        <dl class="hours-list">
+          <div class="hours-row">
+            <dt>Dinner</dt>
+            <dd>Tuesday through Saturday, 5:00 to 10:00pm</dd>
+          </div>
+          <div class="hours-row">
+            <dt>Sunday Brunch</dt>
+            <dd>11:00am to 3:00pm</dd>
+          </div>
+          <div class="hours-row">
+            <dt>Sunday Dinner</dt>
+            <dd>5:00 to 9:00pm</dd>
+          </div>
+          <div class="hours-row">
+            <dt>Monday</dt>
+            <dd>Closed</dd>
+          </div>
+        </dl>
+      </div>
+      <div class="contact-block">
+        <p class="hours-label">Location</p>
+        <address class="contact-address">
+          109 Martin Luther King Jr Blvd<br>
+          Savannah, GA 31401<br>
+          <a href="tel:+19126625999">(912) 662-5999</a>
+        </address>
+        <a href="https://www.google.com/maps/place/109+Martin+Luther+King+Jr+Blvd,+Savannah,+GA+31401" class="directions-link" target="_blank" rel="noopener">Get Directions &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer__inner wrap">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#hero" class="footer__logo-link" aria-label="The Grey home">
+          <img src="assets/logo.png" alt="The Grey" class="footer__logo" width="100" height="auto" loading="lazy">
+        </a>
+        <p class="footer__tagline">Port City Southern food. Savannah, Georgia.</p>
+        <div class="footer__marks" aria-hidden="true">
+          <img src="assets/logo_alt_alfresco.png" alt="" width="28" height="28" loading="lazy">
+          <img src="assets/logo_alt_bus.png" alt="" width="28" height="28" loading="lazy">
+          <img src="assets/logo_alt_brunch.png" alt="" width="28" height="28" loading="lazy">
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Footer navigation">
+        <ul role="list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#menus">Menus</a></li>
+          <li><a href="#private-events">Private Events</a></li>
+          <li><a href="#reserve">Reserve</a></li>
+        </ul>
+      </nav>
+      <div class="footer__social">
+        <p class="footer__social__label">Elsewhere</p>
+        <ul role="list">
+          <li><a href="https://www.facebook.com/TheGreySavannah" target="_blank" rel="noopener">Facebook</a></li>
+          <li><a href="https://www.instagram.com/thegreysavannah/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://resy.com/cities/savannah-ga/the-grey" target="_blank" rel="noopener">Reserve on Resy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>&copy; 2026 The Grey &nbsp;&middot;&nbsp; greyspaces.com</span>
+      <span>Site by <a href="https://neonframewebdesign.com" target="_blank" rel="noopener">NeonFrame Web Design</a></span>
+    </div>
+  </div>
+</footer>
+
+<script src="main.js" defer></script>
+</body>
+</html>
